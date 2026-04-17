@@ -1,0 +1,27 @@
+# Variables de entorno (NUNCA subir al repo)
+.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Documentos PDF (datos reales no van al repo)
+backend/data/*.pdf
+backend/data/*.PDF
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Modelos descargados (son pesados)
+models/
